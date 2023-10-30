@@ -66,6 +66,7 @@ int main()
 				cout<<"enter column position : ";
 				cin>>col_pos;
 				a[row_pos][col_pos]='x';
+				system("cls");
 				display_op(a);
 				if(score(a)){
 					cout<<"1st person wins\n";
@@ -81,6 +82,7 @@ int main()
 				cout<<"enter column position : ";
 				cin>>col_pos;
 				a[row_pos][col_pos]='o';
+				system("cls");
 				display_op(a);
 				if(score(a)){
 					cout<<"\n2nd person wins\n";
